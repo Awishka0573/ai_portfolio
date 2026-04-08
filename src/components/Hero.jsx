@@ -21,14 +21,25 @@ const Hero = () => {
             </div>
 
             <h1 className="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">
-              I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Antigravity</span>
+              I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">Awishka Isuru</span>
               <br />
-              <span className="text-white">AI Engineer & Full-Stack Developer</span>
+              <span className="text-white text-2xl md:text-3xl font-semibold mt-2 block">Full-Stack Web Developer</span>
             </h1>
 
             <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Specializing in building state-of-the-art AI-driven applications and premium digital experiences. I turn complex problems into sleek, efficient, and beautiful web solutions.
+              I am a passionate <span className="text-white font-medium">Full-Stack Web Developer</span> with hands-on experience in building modern, responsive, and scalable web applications. I have completed my <span className="text-white font-medium">HNDIT at SLIATE Kegalle</span> along with a <span className="text-white font-medium">6-month internship at Oxymai Pvt Ltd</span>, gaining real-world industry experience.
             </p>
+
+            <div className="space-y-4">
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 text-slate-300 text-sm font-medium">
+                <span className="text-cyan-400 font-bold">Tech Stack:</span>
+                {["React +Vite", "Next.js", "Node.js", "Firebase"].map((tech) => (
+                  <span key={tech} className="px-3 py-1 bg-slate-800/50 border border-slate-700 rounded-lg backdrop-blur-sm">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
 
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
               <button className="px-8 py-4 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold transition-all shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 hover:-translate-y-1 active:translate-y-0">
@@ -42,16 +53,16 @@ const Hero = () => {
             {/* Social Stats/Briefs */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-slate-800">
               <div>
-                <h4 className="text-white font-bold text-2xl">4+</h4>
+                <h4 className="text-white font-bold text-2xl">01+</h4>
                 <p className="text-slate-500 text-sm">Years Exp.</p>
               </div>
               <div>
-                <h4 className="text-white font-bold text-2xl">50+</h4>
+                <h4 className="text-white font-bold text-2xl">20+</h4>
                 <p className="text-slate-500 text-sm">Projects</p>
               </div>
               <div>
                 <h4 className="text-white font-bold text-2xl">100%</h4>
-                <p className="text-slate-500 text-sm">Happy Clients</p>
+                <p className="text-slate-500 text-sm">Dedication</p>
               </div>
             </div>
           </div>
@@ -61,8 +72,8 @@ const Hero = () => {
             <div className="relative z-10 w-full max-w-[450px] aspect-square mx-auto rounded-3xl overflow-hidden border-2 border-slate-800 group">
               <img 
                 src="/hero_avatar.png" 
-                alt="Portrait" 
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                alt="Awishka Isuru" 
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               {/* Overlay Gradient */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
@@ -79,8 +90,8 @@ const Hero = () => {
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                 </div>
                 <div>
-                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest leading-none">Speed</p>
-                  <p className="text-white font-bold whitespace-nowrap">Turbo Performance</p>
+                  <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest leading-none">Status</p>
+                  <p className="text-white font-bold whitespace-nowrap">Ready to Build</p>
                 </div>
               </div>
             </div>

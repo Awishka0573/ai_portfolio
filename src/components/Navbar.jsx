@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
             {/* Logo Name */}
             <span className="text-white font-bold text-xl tracking-wide group-hover:text-cyan-400 transition-colors duration-300">
-              Portfolio
+              Awishka Isuru
             </span>
           </div>
 
