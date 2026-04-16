@@ -19,6 +19,7 @@ const Navbar = () => {
           <div className="hidden sm:block">
             <div className="ml-10 flex items-center space-x-6">
               <a href="#about" className="text-slate-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-white/5">About</a>
+              <a href="#projects" className="text-slate-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-white/5">Projects</a>
               <a href="#contact" className="text-slate-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors hover:bg-white/5">Contact</a>
               <a href="#cv" className="bg-cyan-600 hover:bg-cyan-500 text-white px-5 py-2 rounded-lg text-sm font-medium transition-all shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 hover:scale-105 active:scale-95">CV</a>
             </div>
