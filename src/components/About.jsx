@@ -155,7 +155,7 @@ const About = () => {
                   <img src="/sliate_logo.png" alt="SLIATE" className="w-full h-full object-contain" />
                 </div>
                 <div>
-                  <p className="text-white font-bold italic label-text">SLIATE Kegalle</p>
+                  <p className="text-white font-bold label-text">SLIATE Kegalle</p>
                   <p className="text-slate-500 text-xs">HNDIT Graduate</p>
                 </div>
               </motion.div>
@@ -168,7 +168,7 @@ const About = () => {
                   <img src="/oxymai_logo.png" alt="Oxymai" className="w-full h-full object-contain" />
                 </div>
                 <div>
-                  <p className="text-white font-bold italic label-text">Oxymai Pvt Ltd</p>
+                  <p className="text-white font-bold label-text">Oxymai Pvt Ltd</p>
                   <p className="text-slate-500 text-xs">Web Dev Internship</p>
                 </div>
               </motion.div>
